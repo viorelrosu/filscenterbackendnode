@@ -5,7 +5,8 @@ const app = express();
 global.__basedir = __dirname;
 
 var corsOptions = {
-  origin: "http://localhost:4200"
+  //origin: "http://localhost:4200"
+  origin: 'http://filscentergym.com'
 };
 
 app.use(cors(corsOptions));
